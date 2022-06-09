@@ -1,5 +1,5 @@
-window.onload = function{
-    window.addEventListener("scroll",(e)=>{
+window.onload = function(){
+    window.addEventListener("scrollY",(e)=>{
     console.log(window.scrollY);
     });
 
@@ -9,15 +9,23 @@ window.onload = function{
     });
 
     lax.addElements('.logo',{
-        scrollY:
+        scrollY:{
             scale:[
-                [0,200],
-                [1,3],
+                [0,80],
+                [1,3]
             ],
         opacity:[
             [0,70],
-            [1,0],
+            [1,0]
         ],
+
+        translateY:[
+            [0,80],
+            [0,100]
+        ],
+
+        },
+            
         
     });
 };

@@ -18,14 +18,75 @@ window.onload = function(){
             [0,70],
             [1,0]
         ],
-
         translateY:[
             [0,80],
             [0,100]
         ],
+        },
+    });
+
+
+    lax.addElements('.ultron',{
+        scrollY:{
+        opacity:[
+            [0,80],
+            [0,1]
+        ],
+        translateY:[
+            [0,400],
+            [0,80]
+        ],
 
         },
-            
-        
     });
+
+    lax.addElements('.loki',{
+        scrollY:{
+        opacity:[
+            [30,100],
+            [0,1]
+        ],
+        translateY:[
+            [0,400],
+            [0,-80]
+        ],
+
+        },
+    });
+
+    lax.addElements('.thanos',{
+        scrollY:{
+        opacity:[
+            [50,120],
+            [0,1]
+        ],
+        translateY:[
+            [0,400],
+            [0,80]
+        ],
+
+        },
+    });
+
+    lax.addElements('.scroll-tip',{
+        scrollY:{
+        opacity:[
+            [0,700],
+            [1,0]
+        ],
+        translateY:[
+            [0,500],
+            [-250,0]
+        ],
+
+        "letter-spacing":[
+            [0,600],
+            [0,150],{
+                cssUnit:"px",
+            },
+        ],
+
+        },
+    });
+
 };

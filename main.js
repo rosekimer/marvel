@@ -75,7 +75,7 @@ window.onload = function(){
             [1,0]
         ],
         translateY:[
-            [0,500],
+            [0,800],
             [-250,0]
         ],
 
@@ -87,6 +87,21 @@ window.onload = function(){
         ],
 
         },
+    });
+
+
+    lax.addElements('.ironman-title',{
+        scrollY:{
+        filter:[
+            [600,700,800,900,1000],
+            [0,50,0,50,50],
+            {
+                cssFn: function(value){
+                    return `drop-shadow(0 0 ${value}px yellow)`;
+                },
+            },
+        ],
+       },
     });
 
 };

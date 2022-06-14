@@ -240,6 +240,96 @@ window.onload = function(){
 
        },
     });
+
+
+    lax.addElements(".thor1 img",{
+        scrollY:{
+        opacity:[
+            [3000,3200],
+            [0,1],
+        ],
+        scale:[
+            [3000,3200],
+            [2,1],
+        ],
+         },
+    });
+
+
+    lax.addElements(".thor2 img",{
+        scrollY:{
+        opacity:[
+            [3050,3250],
+            [0,1],
+        ],
+        scale:[
+            [3050,3250],
+            [2,1],
+        ],
+         },
+    });
+
+    lax.addElements(".thor3 img",{
+        scrollY:{
+        opacity:[
+            [3100,3300],
+            [0,1],
+        ],
+        scale:[
+            [3100,3300],
+            [2,1],
+        ],
+         },
+    });
+    lax.addElements(".thor4 img",{
+        scrollY:{
+        opacity:[
+            [3150,3350],
+            [0,1],
+        ],
+        scale:[
+            [3150,3350],
+            [2,1],
+        ],
+         },
+    });
+
+    lax.addElements(".thor",{
+        scrollY:{
+            translateX:[
+                [2900,3300],
+                [-500,1500],
+            ],
+            translateY:[
+                [2900,3300],
+                [-600,-1500],
+            ],
+         },
+    });
+
+    lax.addElements(".thor2",{
+        scrollY:{
+        
+            translateY:[
+                [3100,3300],
+                [-1500,-700],
+            ],
+            opacity:[
+                [3100,3300],
+                [0,1],
+            ],
+            filter:[
+                [3100,3300],
+                [100,0],
+                {
+                    cssFn:(value) =>{
+                        return`blur(${value}px)`;
+                    },
+                },
+            ],
+          
+         },
+    });
    
 };
 

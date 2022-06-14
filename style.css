@@ -75,9 +75,16 @@ body{
     height: 150vh;
 }
 .thor-title{
-    font-size: 15em;
+    font-size: 15em; 
     text-align: center;
-    padding: 300px 0;
-    letter-spacing: -20px;
+    padding: 200px 0;
+    letter-spacing: -10px;
     margin-top: -1700px;
+}
+
+.thor2{
+    /* display: flex; */
+    margin-left: 10px ;
+    justify-content: center;
+    text-align: center;
 }

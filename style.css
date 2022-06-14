@@ -2,7 +2,20 @@ body{
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    height: 7000px;
+
+    background-image:url(./img/clouds2.png),url(./img/capifondo.png);
+    background-repeat: repeat-x, repeat-x;
+    background-position: 0 100vh, 0 350vh;
+    background-size: contain,contain;
+    
+    padding: 0%;
+    margin: 0%;
+
 }
+
+
+
 .logo {
     color: white;
     display: flex;
@@ -32,4 +45,39 @@ body{
     text-align: center;
     padding: 100px 0;
     font-size: 10em;
+}
+.iroman-02{
+    position:absolute;
+    top: 2500px;
+}
+
+.capital-title{
+    text-align: center;
+    padding: 100px 0;
+    font-size: 5em;
+    /*display: flex;*/
+    justify-content: center;
+    
+}
+/*.shield02
+    position:absolute;
+    margin-top: -553px;
+    margin-left: 470px;
+}*/
+.rayo-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.rayo{
+    background-color: rgb(144,233,255);
+    width: 100%;
+    height: 150vh;
+}
+.thor-title{
+    font-size: 15em;
+    text-align: center;
+    padding: 300px 0;
+    letter-spacing: -20px;
+    margin-top: -1700px;
 }

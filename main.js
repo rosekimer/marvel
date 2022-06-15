@@ -302,32 +302,78 @@ window.onload = function(){
             ],
             translateY:[
                 [2900,3300],
-                [-600,-1500],
+                [-600,-1800],
             ],
          },
     });
 
-    lax.addElements(".thor2",{
+
+    lax.addElements(".thor2a",{
         scrollY:{
+            translateX:[
+                [2900,3400],
+                [505,505],
+            ],
         
             translateY:[
-                [3100,3300],
-                [-1500,-700],
+                [2900,3400],
+                [-2000,-700],
             ],
             opacity:[
-                [3100,3300],
+                [2900,3000,3200,3399,3400],
+                [0,0,1,1,0],
+            ],
+                      
+         },
+    });
+
+
+    lax.addElements(".thor2b",{
+        scrollY:{
+            translateX:[
+                [3400,3400],
+                [500,500],
+            ],
+        
+            translateY:[
+                [3400,3400],
+                [-1050,-1050],
+            ],
+            opacity:[
+                [3400,3400],
                 [0,1],
             ],
-            filter:[
-                [3100,3300],
-                [100,0],
-                {
-                    cssFn:(value) =>{
-                        return`blur(${value}px)`;
-                    },
-                },
-            ],
+            // filter:[
+            //     [3200,3500],
+            //     [100,0],
+            //     {
+            //         cssFn:(value) =>{
+            //             return`blur(${value}px)`;
+            //         },
+            //     },
+            //],
           
+         },
+    });
+
+
+    lax.addElements(".avenger-logo",{
+        scrollY:{
+           
+            translateY:[
+                [3400,3400],
+                [-1000,-1000],
+            ],
+            opacity:[
+                [3800,4000],
+                [0,1],
+            ],
+            scale:[
+                [3800,4000],
+                [0,1],
+            ],
+           
+                      
          },
     });
    
